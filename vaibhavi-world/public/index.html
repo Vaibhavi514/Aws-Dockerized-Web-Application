@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vaibhavi World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.15);
+            margin: 30px auto;
+            padding: 30px;
+            max-width: 400px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        button {
+            background: #ffdd57;
+            color: #333;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌍 Vaibhavi World</h1>
+        <p>Welcome to my little corner of the internet ✨</p>
+    </header>
+
+    <div class="card">
+        <h2>Hello! 👋</h2>
+        <p>
+            I’m Vaibhavi — a tech enthusiast learning Cloud, DevOps, and AI,
+            with a deep love for music 🎶
+        </p>
+        <br>
+        <button onclick="sayHello()">Click Me</button>
+    </div>
+
+    <footer>
+        © 2026 Vaibhavi World | Hosted on AWS S3 ☁️
+    </footer>
+
+    <!-- Internal JavaScript -->
+    <script>
+        function sayHello() {
+            alert("Welcome to Vaibhavi World 💜 Thanks for visiting!");
+        }
+    </script>
+
+</body>
+</html>
+
